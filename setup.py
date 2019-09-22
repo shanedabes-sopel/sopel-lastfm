@@ -26,10 +26,10 @@ with open('{}/requirements.txt'.format(script_dir)) as requirements_file:
 setup(
     name='sopel_modules.lastfm',
     version='0.2.0',
-    description='A plugin that returns today\'s holidays from lastfm.com',
+    description='A sopel plugin that returns the user\'s last listened track',
     long_description=readme + '\n\n' + history,
     author='Shane Donohoe',
-    author_email='shane@isda.best',
+    author_email='shane@donohoe.cc',
     url='https://github.com/shanedabes/sopel-lastfm',
     packages=find_packages('.'),
     namespace_packages=['sopel_modules'],
