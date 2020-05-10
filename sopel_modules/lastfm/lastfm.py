@@ -66,7 +66,7 @@ def get_lastfm_user(arg, nick, config):
     if lastfm_user:
         return lastfm_user
 
-    msg = 'User not set, use .fmset or pass user as argument'
+    msg = 'User not set, use {}fmset or pass user as argument'.format(config.core.help_prefix)
     raise NoUserSetException(msg)
 
 
